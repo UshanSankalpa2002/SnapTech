@@ -63,7 +63,7 @@ const UserDashboard = () => {
           city: '',
           state: '',
           zipCode: '',
-          country: 'India'
+          country: 'Sri Lanka'
         }
       });
     }
@@ -72,7 +72,7 @@ const UserDashboard = () => {
   const formatPrice = (price) => {
     return new Intl.NumberFormat('en-IN', {
       style: 'currency',
-      currency: 'INR',
+      currency: 'SLR',
       maximumFractionDigits: 0,
     }).format(price);
   };
