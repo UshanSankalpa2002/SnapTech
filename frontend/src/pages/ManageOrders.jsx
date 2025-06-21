@@ -103,7 +103,7 @@ const ManageOrders = () => {
   const formatPrice = (price) => {
     return new Intl.NumberFormat('en-IN', {
       style: 'currency',
-      currency: 'INR',
+      currency: 'SLR',
       maximumFractionDigits: 0,
     }).format(price);
   };
